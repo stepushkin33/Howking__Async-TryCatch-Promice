@@ -1,0 +1,47 @@
+body{
+    padding: 50px;
+}
+
+.input-number, .load-button {
+    display: inline-block;
+}
+
+.input-number {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #6600ff;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.error-messege {
+    color: #ff0000;
+}
+
+.result-container { 
+    width: 200px;
+    height: 20px;
+}
+
+.load-button {
+    max-width: 150px;
+    min-height: 50px;
+    border: 1px solid #6600ff;
+    border-radius: 15px;
+    background-color: #d5b3f5;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.1s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.load-button:hover {
+    background-color: #dcc3e8;
+    border-color: #c9a0db;
+}
+
+.load-button:active {
+    color: #ffffff;
+}
+
+p{
+    margin: 0;
+}
